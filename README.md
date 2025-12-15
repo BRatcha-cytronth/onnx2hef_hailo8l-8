@@ -2,7 +2,7 @@
 
 ## Overview
 
-A set of Python scripts to **convert ONNX deep learning models into Hailo HEF format** for deployment on Hailo-8L and Hailo-8 accelerators. This project includes parsing, optimizing, and compiling steps for preparing models (e.g., from YOLO/Ultralytics) to Hailo deployable binaries.
+A set of Python scripts to **convert ONNX deep learning models into Hailo HEF format** for deployment on Hailo-8L and Hailo-8 accelerators. This project includes parsing, optimizing, and compiling steps for preparing models **YOLOv8** to Hailo deployable binaries.
 
 Hailo’s HEF format enables efficient inference on Hailo-8L and Hailo-8 hardware. 
 
