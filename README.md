@@ -44,16 +44,19 @@ python3 --version
 ```
 suppose to be python 3.10.xx
 
+clone this 
+
+
 build virtual environment
 ```bash
 python3.10 -m venv ~/venv_hailo
 source ~/venv_hailo/bin/activate
 ```
-
+install essential libraries
 ```bash
 sudo apt-get update
 sudo apt-get install build-essential python3-dev graphviz graphviz-dev python3-tk
-pip install pygraphviz
+pip install -r requirements.txt
 ```
 ```bash
 pip install hailo_dataflow_compiler-3.33.0-py3-none-linux_x86_64.whl
