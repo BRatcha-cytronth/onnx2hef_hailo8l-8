@@ -48,6 +48,9 @@ clone this
 ```bash
 git clone https://github.com/BRatcha-cytronth/onnx2hef_hailo8l-8.git
 ```
+```bash
+cd 
+```
 
 build virtual environment
 ```bash
