@@ -104,3 +104,6 @@ python3 compile.py
 you will get model.hef
 
 
+Reference:
+https://github.com/BetaUtopia/Hailo8l
+https://hailo.ai/developer-zone/documentation/dataflow-compiler-v3-33-0/?sp_referrer=tutorials/tutorials.html
