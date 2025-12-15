@@ -16,11 +16,14 @@ on command promt or powershell
 wsl --install -d Ubuntu-22.04
 ```
 ## Get file from Hailo
-** Please register then download
-
+** Please register then download **
 https://hailo.ai/developer-zone/software-downloads/?product=ai_accelerators&device=hailo_8_8l
-<img width="1699" height="839" alt="image" src="https://github.com/user-attachments/assets/0d9ac7d8-12e6-4baf-8c3f-daa1b421cbf7" />
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/0d9ac7d8-12e6-4baf-8c3f-daa1b421cbf7" />
+
+and
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/5bc77190-f8fe-4b93-98ec-a7ad5f5048bc" />
 
 ## Prepare environment
 
