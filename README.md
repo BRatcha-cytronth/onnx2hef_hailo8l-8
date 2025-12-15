@@ -9,8 +9,15 @@ Hailo’s HEF format enables efficient inference on Hailo-8L and Hailo-8 hardwar
 ---
 
 
-# Prepare WSL2 (Ubuntu 22.04)
+## Prepare WSL2 (Ubuntu 22.04)
 
+on command promt or powershell
 ```bash
 wsl --install -d Ubuntu-22.04
+```
+
+check GPU
+
+```bash
+nvidia-smi
 ```
