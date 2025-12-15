@@ -15,6 +15,12 @@ on command promt or powershell
 ```bash
 wsl --install -d Ubuntu-22.04
 ```
+## Get file from Hailo
+** Please register then download
+
+https://hailo.ai/developer-zone/software-downloads/?product=ai_accelerators&device=hailo_8_8l
+<img width="1699" height="839" alt="image" src="https://github.com/user-attachments/assets/0d9ac7d8-12e6-4baf-8c3f-daa1b421cbf7" />
+
 
 ## Prepare environment
 
@@ -24,3 +30,15 @@ sudo apt install -y \
   python3.10-venv \
   python3.10-dev
 ```
+check
+```bash
+python3 --version
+```
+suppose to be python 3.10.xx
+
+build virtual environment
+```bash
+python3.10 -m venv ~/venv_hailo
+source ~/venv_hailo/bin/activate
+```
+
