@@ -81,6 +81,11 @@ make sure you have
  **** Do not forget to change your path ****
 
  1. parse
+hailo 8 or hailo 8l select here in the file
+
+<img width="735" height="467" alt="image" src="https://github.com/user-attachments/assets/79a0ed4f-163c-460a-953f-af2d6e655ab6" />
+
+
 ```bash
 python3 parse.py
 ```
