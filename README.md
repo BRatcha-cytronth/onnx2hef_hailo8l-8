@@ -17,13 +17,18 @@ wsl --install -d Ubuntu-22.04
 ```
 ## Get file from Hailo
 ** Please register then download **
+
 https://hailo.ai/developer-zone/software-downloads/?product=ai_accelerators&device=hailo_8_8l
+
+1. Dataflow Complier
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/0d9ac7d8-12e6-4baf-8c3f-daa1b421cbf7" />
 
-and
+2. Model Zoo
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/5bc77190-f8fe-4b93-98ec-a7ad5f5048bc" />
+
+move to wsl user path
 
 ## Prepare environment
 
@@ -43,5 +48,18 @@ build virtual environment
 ```bash
 python3.10 -m venv ~/venv_hailo
 source ~/venv_hailo/bin/activate
+```
+
+```bash
+sudo apt-get update
+sudo apt-get install build-essential python3-dev graphviz graphviz-dev python3-tk
+pip install pygraphviz
+```
+```bash
+pip install hailo_dataflow_compiler-3.33.0-py3-none-linux_x86_64.whl
+pip install hailo_model_zoo-2.17.1-py3-none-any.whl
+```
+```bash
+git clone https://github.com/hailo-ai/hailo_model_zoo.git
 ```
 
