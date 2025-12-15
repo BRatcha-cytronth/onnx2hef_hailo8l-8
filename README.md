@@ -46,7 +46,7 @@ suppose to be python 3.10.xx
 
 clone this 
 ```bash
-https://github.com/BRatcha-cytronth/onnx2hef_hailo8l-8.git
+git clone https://github.com/BRatcha-cytronth/onnx2hef_hailo8l-8.git
 ```
 
 build virtual environment
