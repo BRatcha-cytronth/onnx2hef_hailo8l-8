@@ -16,8 +16,11 @@ on command promt or powershell
 wsl --install -d Ubuntu-22.04
 ```
 
-check GPU
+## Prepare environment
 
 ```bash
-nvidia-smi
+sudo apt install -y \
+  python3.10 \
+  python3.10-venv \
+  python3.10-dev
 ```
