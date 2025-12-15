@@ -49,7 +49,7 @@ clone this
 git clone https://github.com/BRatcha-cytronth/onnx2hef_hailo8l-8.git
 ```
 ```bash
-cd 
+cd onnx2hef_hailo8l-8
 ```
 
 build virtual environment
@@ -70,4 +70,32 @@ pip install hailo_model_zoo-2.17.1-py3-none-any.whl
 ```bash
 git clone https://github.com/hailo-ai/hailo_model_zoo.git
 ```
+
+## Convert
+
+make sure you have 
+1. yourmodel.onnx
+2. train_image_folder
+
+
+ **** Do not forget to change your path ****
+
+ 1. parse
+```bash
+python3 parse.py
+```
+you will get model.har
+
+2. optimize
+```bash
+python3 optimize.py
+```
+you will get model_quantized_model.har
+
+3.compile
+```bash
+python3 compile.py
+```
+you will get model.hef
+
 
