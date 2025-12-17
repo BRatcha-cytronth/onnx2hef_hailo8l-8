@@ -63,7 +63,7 @@ normalization1 = normalization([0.0, 0.0, 0.0], [255.0, 255.0, 255.0])
 #change_output_activation(conv42, sigmoid)
 #change_output_activation(conv53, sigmoid)
 #change_output_activation(conv63, sigmoid)
-nms_postprocess("/home/user/hailo/config/postprocess_config/yolov8n_nms_config.json", meta_arch=yolov8, engine=cpu)
+nms_postprocess("/home/user/onnx2hef_hailo8l-8/config/postprocess_config/yolov8n_nms_config.json", meta_arch=yolov8, engine=cpu)
 '''
 
 # Load the model script to ClientRunner so it will be considered on optimization
